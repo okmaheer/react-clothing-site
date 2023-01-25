@@ -5,6 +5,7 @@ import { ReactComponent as CrwnLogo } from "../../assets/crown.svg";
 import { UserContext } from "../../contexts/user.context";
 
 const Navigation = () => {
+  console.log('here')
   const { currentUser} = useContext(UserContext);
   console.log('nav',currentUser)
   return (
