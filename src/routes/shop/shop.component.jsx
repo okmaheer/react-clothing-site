@@ -9,7 +9,7 @@ const Shop = () => {
       {products.map((product) => (
         <ProductCard key={product.id} product={product} />
       ))}
-    </div
+    </div>
   );
 };
 export default Shop;
