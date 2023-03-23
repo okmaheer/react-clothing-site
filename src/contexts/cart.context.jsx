@@ -15,7 +15,7 @@ const addCartItem = (cartItems, productToAdd) => {
   }
   return [...cartItems, { ...productToAdd, quantity: 1 }];
 };
-export const CartContext = createContext({
+export const CartContext = createContext({ 
   isCartOpen: false,
   setIsCartOpen: () => {},
   cartItems: [],
