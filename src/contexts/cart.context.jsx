@@ -10,7 +10,7 @@ const addCartItem = (cartItems, productToAdd) => {
         
       return { ...cartItem, quantity: cartItem.quantity + 1 };
     }});
-    return cartItem;
+    return cartItem; 
 
   }
   return [...cartItems, { ...productToAdd, quantity: 1 }];
