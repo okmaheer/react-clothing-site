@@ -18,9 +18,7 @@ const App = () => {
     </Routes> 
 
 
-    
-
-
+  
   );
 };
 
