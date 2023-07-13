@@ -16,6 +16,7 @@ const Category = () => {
     setProducts(categoriesMap[category]);
   }, [category, categoriesMap]);
 
+  
   return (
     <Fragment>
       <Title>{category.toUpperCase()}</Title>
