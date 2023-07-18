@@ -10,8 +10,6 @@ export const categoriesReducer = (state = CATEGORIES_INITIAL_STATE, action) => {
       return {
         ...state,
         categories: payload,
-
-        
       };
     default:
       return state;
