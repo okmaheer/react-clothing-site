@@ -14,8 +14,6 @@ export const categoriesReducer = (state = CATEGORIES_INITIAL_STATE, action) => {
       };
     default:
       return state;
-
-
-      
+            
   }
 };
